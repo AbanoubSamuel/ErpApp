@@ -20,6 +20,8 @@ This project is an Employee Management System designed to store information abou
 
 # 2- SQL Query Task
 ## Table Structure
+### SQL queries are inside SQL folder in 3 scripts.
+
 ## Please note it is implemented in PostgreSQL RDMBS syntax
 
 ## Overview
