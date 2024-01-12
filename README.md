@@ -16,10 +16,10 @@ This project is an Employee Management System designed to store information abou
 - Execute this command to install dependencies ```mvn clean install```
 - Run ```mvn spring-boot:run``` to install dependencies and run the project. 
 
-# SQL Query Task
-## Table Structure
-### SQL queries are inside SQL folder in 3 scripts.
 
+
+# 2- SQL Query Task
+## Table Structure
 ## Please note it is implemented in PostgreSQL RDMBS syntax
 
 ## Overview
