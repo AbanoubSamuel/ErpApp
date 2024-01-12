@@ -26,6 +26,7 @@ public class ErpApp {
 
         manager.addProject(project1);
         developer.addProject(project2);
+        developer.removeProject(project2);
 
         // Displaying employee information
         System.out.println("Manager: " + manager.getName() + ", Salary: $" + manager.calculateSalary());

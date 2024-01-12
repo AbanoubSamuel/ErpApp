@@ -5,6 +5,7 @@ import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
+
 @Getter
 @Setter
 public class Employee extends Person implements ContractDepartment {
@@ -19,7 +20,6 @@ public class Employee extends Person implements ContractDepartment {
         this.position = position;
     }
 
-    // Implementing ContractDepartment interface
     @Override
     public void setEntryDate(String entryDate) {
         this.entryDate = entryDate;
@@ -35,10 +35,8 @@ public class Employee extends Person implements ContractDepartment {
         this.noticePeriod = noticePeriod;
     }
 
-    // Method for salary calculation based on the employee's position
     public double calculateSalary() {
-        // Implement your salary calculation logic based on the employee's position
-        // For simplicity, let's assume a fixed salary for now
+
         if ("Manager".equals(position)) {
             return 50000.0;
         } else {
@@ -46,7 +44,6 @@ public class Employee extends Person implements ContractDepartment {
         }
     }
 
-    // Step 4: Adding and removing projects
     public void addProject(Project project) {
         projects.add(project);
     }
